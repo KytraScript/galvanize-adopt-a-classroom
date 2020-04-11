@@ -1,16 +1,16 @@
 {
-  "name": "emery-todo-app",
-  "version": "1.1.0",
-  "description": "Emery's Todo Application",
+  "name": "kytra-galvanize-tracker",
+  "version": "1.14.0",
+  "description": "Galvanize AAC Donation Tracker",
   "author": "Kytra",
   "license": "",
-  "main": "../Emery-todo-app/server/server.js",
+  "main": "../D3/db/database.js",
   "engines": {
     "node": ">=6.13.0"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon server/server.js",
+    "start": "node db/database.js",
     "react-dev": "./node_modules/.bin/webpack -d --watch --display-error-details"
   },
   "dependencies": {

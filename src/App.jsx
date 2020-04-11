@@ -20,7 +20,7 @@ const App = () => {
     });
 
     const getData = () => {
-        axios.get('http://localhost:5500/allEntries')
+        axios.get('/allEntries')
             .then(response => {
                 setContributors(response.data);
             })
@@ -28,7 +28,7 @@ const App = () => {
     };
 
     const editEntry = (id, amount) => {
-        axios.put('http://localhost:5500/updatePledge', {id: id, paid: amount})
+        axios.put('/updatePledge', {id: id, paid: amount})
             .then(response => {
                 console.log(response);
                 window.location.href = window.location.href;
@@ -37,7 +37,7 @@ const App = () => {
     };
 
     const removeEntry = (id) => {
-        axios.delete('http://localhost:5500/removePledge', {data: {id: id} })
+        axios.delete('/removePledge', {data: {id: id} })
             .then(response => {
                 console.log(response);
                 window.location.href = window.location.href;
@@ -93,7 +93,7 @@ const App = () => {
                             <span>{'' + formatter.format(lineItemUpdate.committed)}</span>
                         </div>
                         <div className={'input'}>
-                            <label htmlFor={'new-paid'}>Current Contribution:</label>
+                            <label htmlFor={'new-paid'}> New Contribution Total:</label>
                             <input type={'number'} min={0} name={'new-paid'} placeholder={'' + formatter.format(paidUpdate)}
                                    onChange={(event) => { setPaidUpdate(event.target.value);}}/>
                         </div>
@@ -181,7 +181,7 @@ const App = () => {
                     </tbody>
                 </table>
             </div>
-            <div className={'footer'}>This page was created with love by <a href={'http://www.linkedin.com/in/kytrascript'}>Fort Hood SEIR Kytra Murphree</a>.</div>
+            <div className={'footer'}>This page was created with love by badass <a href={'http://www.linkedin.com/in/kytrascript'}>Fort Hood SEIR Kytra Murphree</a>.</div>
         </div>
     );
 

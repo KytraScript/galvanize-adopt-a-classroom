@@ -10,6 +10,7 @@ const env = require('../env/mySQL_env.js');
 
 app.use(bodyParser.json());
 app.use(cors());
+app.use(express.static('./public'));
 
 function getDbConn(){
 

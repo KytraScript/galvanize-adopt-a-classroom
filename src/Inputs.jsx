@@ -9,7 +9,7 @@ const Inputs = () => {
     const [paidInput, getPaidInput] = useState(0);
 
     const submitPledge = () => {
-        axios.post('http://localhost:5500/addPledge', {
+        axios.post('/addPledge', {
             name: nameInput,
             pledge: pledgeInput,
             paid: paidInput
@@ -25,17 +25,17 @@ const Inputs = () => {
         <div className={'inputs-container'}>
             <div className={'input'}>
                 <label htmlFor={'new-name'}>Name:</label>
-                <input type={'text'} maxLength={'45'} name={'new-name'} placeholder={'...enter name'}
+                <input type={'text'} maxLength={'45'} name={'new-name'} placeholder={'...enter name...'}
                 onChange={ (event) => getNameInput(event.target.value)}/>
             </div>
             <div className={'input'}>
                 <label htmlFor={'new-pledged'}>Target Pledge:</label>
-                <input type={'number'} min={0} name={'new-pledged'} placeholder={'...pledged'}
+                <input type={'number'} min={0} name={'new-pledged'} placeholder={'...pledged...'}
                        onChange={ (event) => getPledgeInput(event.target.value)}/>
             </div>
             <div className={'input'}>
                 <label htmlFor={'new-paid'}>Current Contribution:</label>
-                <input type={'number'} min={0} name={'new-paid'} placeholder={'...contributed'}
+                <input type={'number'} min={0} name={'new-paid'} placeholder={'...contributed...'}
                        onChange={ (event) => getPaidInput(event.target.value)}/>
             </div>
             <div className={'input'}>
