@@ -7,7 +7,9 @@ const cors = require('cors');
 const SQL = require('sql-template-strings');
 const util = require('util');
 const env = require('../env/mySQL_env.js');
+const compression = require('compression');
 
+app.use(compression());
 app.use(bodyParser.json());
 app.use(cors());
 app.use(express.static('./public'));

@@ -11,10 +11,12 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node db/database.js",
-    "react-dev": "./node_modules/.bin/webpack -d --watch --display-error-details"
+    "react-dev": "./node_modules/.bin/webpack -d --watch --display-error-details",
+    "react-prod": "./node_modules/.bin/webpack -p"
   },
   "dependencies": {
     "axios": "^0.19.2",
+    "compression": "^1.7.4",
     "d3": "^5.15.1",
     "express": "^4.17.1",
     "mysql": "^2.18.1",
