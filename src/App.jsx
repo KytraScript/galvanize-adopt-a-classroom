@@ -63,11 +63,11 @@ const App = () => {
     return (
         <div className={'main'}>
             <div className={'nav-bar-wrapper'}>
-                <div className={'nav-bar-logo'}><img id={'logo'} src={'./img/galvanize-logo.svg'}/></div>
+                <div className={'nav-bar-logo'}><img alt={'Galvanize Logo'} id={'logo'} src={'./img/galvanize-logo.svg'}/></div>
                 <div className={'nav-link'}>
                     <h2>Make Your Donation!</h2>
                     <h2>We Are Supporting:</h2>
-                    <img src={'./img/AAC-logo.webp'}/>
+                    <img alt={'Adopt A Classroom Logo'} src={'./img/AAC-logo.webp'}/>
                     <p><a href={'https://give.adoptaclassroom.org/campaign/adoptaclassroom-org-disaster-relief-fund/c71352'}>
                         https://give.adoptaclassroom.org/campaign/adoptaclassroom-org-disaster-relief-fund/c71352
                     </a></p>
