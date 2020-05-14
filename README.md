@@ -31,5 +31,14 @@ the cloud was an incredibly rewarding feeling.  Using mySQL workbench on my loca
 deployed RDS database.  It feels great knowing I can allow the end user access to the web application and their submissions
 are updated in real-time.
 
-#### FEEL FREE TO POKE AROUND THE DEPLOYED SITE AND ADD YOUR OWN ENTRIES.  THE DONATION DRIVE HAS CONCLUDED!
+Additionally, providing the proper meta tags to allow for websites and chat platforms to unfurl shared links of this project
+was an exciting learning exercise.
+
+Thanks for viewing!  If you pull down this repo and try to run it, you'll successfully get the client to run, but the
+database requires my environment variables that (for obvious reasons) I did not include in this repo.  The graph will
+display $0 pledged vs. $0 paid and the donation list will be blank.  Please keep this in mind.  Again, if you'd like to see
+this web app in action, it is deployed and usable here:
+[Kytra & Galvanize Donation Tracker](http://kytra-galvanize-aac-tracker.us-west-2.elasticbeanstalk.com/)
+
+### FEEL FREE TO POKE AROUND THE DEPLOYED SITE AND ADD YOUR OWN ENTRIES.  THE DONATION DRIVE HAS CONCLUDED.
 
