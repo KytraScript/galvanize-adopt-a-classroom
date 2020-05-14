@@ -1,4 +1,4 @@
-## Kytra presents a Galvanize Donation Tracker for Adopt-a-Classroom COVID-19 relief
+## Kytra presents: Donation Tracker for Adopt-a-Classroom COVID-19 Relief
 ---
 ### _Why Does This Exist?_
 
@@ -31,5 +31,5 @@ the cloud was an incredibly rewarding feeling.  Using mySQL workbench on my loca
 deployed RDS database.  It feels great knowing I can allow the end user access to the web application and their submissions
 are updated in real-time.
 
-## FEEL FREE TO POKE AROUND THE DEPLOYED SITE AND ADD YOUR OWN ENTRIES.  THE DONATION DRIVE HAS CONCLUDED!
+#### FEEL FREE TO POKE AROUND THE DEPLOYED SITE AND ADD YOUR OWN ENTRIES.  THE DONATION DRIVE HAS CONCLUDED!
 
