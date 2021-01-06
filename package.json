@@ -15,7 +15,7 @@
     "react-prod": "./node_modules/.bin/webpack -p"
   },
   "dependencies": {
-    "axios": "^0.19.2",
+    "axios": "^0.21.1",
     "compression": "^1.7.4",
     "d3": "^5.15.1",
     "express": "^4.17.1",
