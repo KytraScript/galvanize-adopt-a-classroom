@@ -17,7 +17,7 @@
   "dependencies": {
     "axios": "^0.19.2",
     "compression": "^1.7.4",
-    "d3": "^5.15.1",
+    "d3": "^7.6.1",
     "express": "^4.17.1",
     "mysql": "^2.18.1",
     "nodemon": "^2.0.3",
