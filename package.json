@@ -34,6 +34,6 @@
     "body-parser": "^1.17.2",
     "cors": "^2.8.5",
     "sql-template-strings": "^2.2.2",
-    "webpack-cli": "^3.3.11"
+    "webpack-cli": "^3.3.12"
   }
 }
